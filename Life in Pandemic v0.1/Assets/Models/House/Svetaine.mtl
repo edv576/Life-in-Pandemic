@@ -1,0 +1,1106 @@
+﻿
+newmtl Material~0
+Kd 0.7 0.7 0.7 
+Ka 0 0 0 
+Ks 0 0 0 
+d 1
+
+newmtl Sienu spalva
+Kd 0.921569 0.901961 0.866667 
+Ka 0.460784 0.45098 0.433333 
+Ks 0.460784 0.45098 0.433333 
+d 1
+
+newmtl Tapetas melynas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\4870c7a04bd40ac9fb5530ab5c3c66f9.jpg
+
+newmtl Parketas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Parketas.jpg
+
+newmtl Panele metalas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^61EC5B4018AE5B380E82BE55BBE2F0516D64DFDD105B2A2489^pimgpsh_fullsize_distr.jpg
+
+newmtl Kolektorius
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Lubu spalva
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Antro auksto grindys
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Reggae-1normalstrip-oak-BK1-DBE1-L05-B6R-K14130-F.jpg
+
+newmtl Koridoriaus tapetas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\cda648d2375beac260cecff903a5f06c.jpg
+
+newmtl Duru rankena
+Kd 0.647059 0.666667 0.682353 
+Ka 0.323529 0.333333 0.341176 
+Ks 0.323529 0.333333 0.341176 
+d 1
+
+newmtl Duru plastikas
+Kd 0.756863 0.709804 0.611765 
+Ka 0.378431 0.354902 0.305882 
+Ks 0.378431 0.354902 0.305882 
+d 1
+
+newmtl Siju medis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Siju medis.jpg
+
+newmtl Durys, plintusai
+Kd 0.94902 0.94902 0.94902 
+Ka 0.47451 0.47451 0.47451 
+Ks 0.47451 0.47451 0.47451 
+d 1
+
+newmtl Langu remai
+Kd 0.94902 0.94902 0.94902 
+Ka 0.47451 0.47451 0.47451 
+Ks 0.47451 0.47451 0.47451 
+d 1
+
+newmtl Lango stiklas
+Kd 0 0 0 
+Ka 0 0 0 
+Ks 0 0 0 
+d 0
+
+newmtl Tureklu stiklas
+Kd 0 0 0 
+Ka 0 0 0 
+Ks 0 0 0 
+d 0
+
+newmtl Tureklu aliuminis
+Kd 0.647059 0.666667 0.682353 
+Ka 0.323529 0.333333 0.341176 
+Ks 0.323529 0.333333 0.341176 
+d 1
+
+newmtl Lubinis halogeno cromas
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Halogenu ledas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Rozete pilka
+Kd 0.294118 0.294118 0.294118 
+Ka 0.147059 0.147059 0.147059 
+Ks 0.147059 0.147059 0.147059 
+d 1
+
+newmtl Halogenas prie grindu
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Grindu halogeno ledukas
+Kd 1 0 0 
+Ka 0.5 0 0 
+Ks 0.5 0 0 
+d 1
+
+newmtl Rozetes
+Kd 0.94902 0.94902 0.94902 
+Ka 0.47451 0.47451 0.47451 
+Ks 0.47451 0.47451 0.47451 
+d 1
+
+newmtl Laiptu Cromas
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Laiptu balta
+Kd 0.937255 0.937255 0.937255 
+Ka 0.468627 0.468627 0.468627 
+Ks 0.468627 0.468627 0.468627 
+d 1
+
+newmtl Veidrodis koridoriaus
+Kd 0.109804 0.109804 0.109804 
+Ka 0.054902 0.054902 0.054902 
+Ks 0.054902 0.054902 0.054902 
+d 1
+
+newmtl Komodos cromas
+Kd 0.14902 0.14902 0.14902 
+Ka 0.0745098 0.0745098 0.0745098 
+Ks 0.0745098 0.0745098 0.0745098 
+d 1
+
+newmtl Virtuves baldas
+Kd 0.882353 0.882353 0.882353 
+Ka 0.441176 0.441176 0.441176 
+Ks 0.441176 0.441176 0.441176 
+d 1
+
+newmtl Komodos medis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Siju medis1.jpg
+
+newmtl Komodos korpusas
+Kd 0.894118 0.894118 0.894118 
+Ka 0.447059 0.447059 0.447059 
+Ks 0.447059 0.447059 0.447059 
+d 1
+
+newmtl DefaultMaterial~1
+Kd 0.9 0.9 0.9 
+Ka 0.6 0.6 0.6 
+Ks 0.25 0.25 0.25 
+d 1
+
+newmtl Koridoriaus spinta
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Siju medis2.jpg
+
+newmtl Panele medis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^E97A0063FCAB8EF5B688D2DA6FFDBAE6500976933B25D3FC09^pimgpsh_fullsize_distr.jpg
+
+newmtl Roleto plastikas
+Kd 0.8 0.8 0.8 
+Ka 0.4 0.4 0.4 
+Ks 0.4 0.4 0.4 
+d 1
+
+newmtl Dienine uzuolaida
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 0.3
+
+newmtl Karnizo metalas
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Naktine uzuolaida
+Kd 0.811765 0.792157 0.737255 
+Ka 0.405882 0.396078 0.368627 
+Ks 0.405882 0.396078 0.368627 
+d 1
+
+newmtl Kaitlentes aliuminis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Brushed_01.jpg
+
+newmtl Stalvirstis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\24251a7b9e4d380007ef0d288767c782.jpg
+
+newmtl Kavos aparato plastikas
+Kd 0.2 0.2 0.2 
+Ka 0.1 0.1 0.1 
+Ks 0.1 0.1 0.1 
+d 1
+
+newmtl Orkaites cromas
+Kd 0.509804 0.54902 0.564706 
+Ka 0.254902 0.27451 0.282353 
+Ks 0.254902 0.27451 0.282353 
+d 1
+
+newmtl Orkaites aliuminis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Brushed_011.jpg
+
+newmtl Orkaites stiklas
+Kd 0.2 0.2 0.2 
+Ka 0.1 0.1 0.1 
+Ks 0.1 0.1 0.1 
+d 0.9
+
+newmtl Puodukas kavos aparate
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Puodelis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Vynas 1
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\bd650dda820377d45722ad843c3da58d.jpg
+
+newmtl Vynas 2
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\598475fe791153e0713526956b96124f.png
+
+newmtl Orkaites raides
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\0502bcd1d867075d822d2485408a0f98.jpg
+
+newmtl Kedes medis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\af8fbd3479261a53fa57dc2d33a8e124.jpg
+
+newmtl Kedes medziaga1
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\ss (2).jpg
+
+newmtl Kaitlentes stiklas
+Kd 0.14902 0.14902 0.14902 
+Ka 0.0745098 0.0745098 0.0745098 
+Ks 0.0745098 0.0745098 0.0745098 
+d 1
+
+newmtl Gartraukis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Kriaukles korpusas
+Kd 0.87451 0.858824 0.827451 
+Ka 0.437255 0.429412 0.413725 
+Ks 0.437255 0.429412 0.413725 
+d 1
+
+newmtl Kriaukles cromas
+Kd 0.509804 0.54902 0.564706 
+Ka 0.254902 0.27451 0.282353 
+Ks 0.254902 0.27451 0.282353 
+d 1
+
+newmtl Kavos staliuko plastikas
+Kd 0.14902 0.14902 0.14902 
+Ka 0.0745098 0.0745098 0.0745098 
+Ks 0.0745098 0.0745098 0.0745098 
+d 1
+
+newmtl Pagalve 3
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\5358.jpg
+
+newmtl Pagalve 1
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\7418-01.jpg
+
+newmtl Pagalve 2
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\smatorel-pagalvele__0489572_PE623722_S4.JPG
+
+newmtl Sofos medziaga
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\df95cdbdf2b5b6d69e5ada076c83e071.jpg
+
+newmtl Kilimas sviesus
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\a861762c0ce3198c185932af7b62bc30.jpg
+
+newmtl Staliuko plastikas
+Kd 0.2 0.2 0.2 
+Ka 0.1 0.1 0.1 
+Ks 0.1 0.1 0.1 
+d 1
+
+newmtl Puodeliu keramika
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Puodeliu aliuminis
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Lubu lempos  plastikas
+Kd 0.937255 0.937255 0.937255 
+Ka 0.468627 0.468627 0.468627 
+Ks 0.468627 0.468627 0.468627 
+d 1
+
+newmtl Lubu lempos cromas
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Lubu lempos dirzas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\fzm-leather.texture-05-[800x800].jpg
+
+newmtl Paveikslu remas juodas
+Kd 0.2 0.2 0.2 
+Ka 0.1 0.1 0.1 
+Ks 0.1 0.1 0.1 
+d 1
+
+newmtl Paveikslu baltas vidus
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Foto 10
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^B4BE5AEB9DE690CFFCDD250AF117A9BA75B670EAA0AEBA8801^pimgpsh_fullsize_distr.jpg
+
+newmtl Foto 9
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\20x30(1).jpg
+
+newmtl Foto 8
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\20x30.jpg
+
+newmtl Foto 7
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\20x30_2(1).jpg
+
+newmtl Foto 11
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\20x30_2.jpg
+
+newmtl Foto 3
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\CADRjwPfLSM.jpg
+
+newmtl Foto 13
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\dsc1557.jpg
+
+newmtl Foto 14
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Juodai baltos (2).jpg
+
+newmtl cp8
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\35c47ca32c9e03a3ae0274bd3b9baa7f.jpg
+
+newmtl Knygu balta
+Kd 0.886275 0.886275 0.886275 
+Ka 0.443137 0.443137 0.443137 
+Ks 0.443137 0.443137 0.443137 
+d 1
+
+newmtl cp3
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\658e4953e42dc92d8aa07d7505933948.jpg
+
+newmtl cp9
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\5c1c3763faa3b69d41676db36374e279.jpg
+
+newmtl cp5
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\18c85dca2a03d37b99df266aeead6264.jpg
+
+newmtl cp1
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\d5723617d20f3ac05becfe50326b3198.jpg
+
+newmtl cp2
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\456236dd3dc8b1da3193155314750557.jpg
+
+newmtl Tv plastikas
+Kd 0.2 0.2 0.2 
+Ka 0.1 0.1 0.1 
+Ks 0.1 0.1 0.1 
+d 1
+
+newmtl Tv ekranas
+Kd 0.14902 0.14902 0.14902 
+Ka 0.0745098 0.0745098 0.0745098 
+Ks 0.0745098 0.0745098 0.0745098 
+d 0.9
+
+newmtl Laikrodzio rodykles
+Kd 0.156863 0.156863 0.156863 
+Ka 0.0784314 0.0784314 0.0784314 
+Ks 0.0784314 0.0784314 0.0784314 
+d 1
+
+newmtl Karves kailis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\78ccec3912ed5f8fb2326024915ede16.jpg
+
+newmtl Geles zeme
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\0f582f40a075c1de8cd68a3870b83ad1.jpg
+
+newmtl Geles keramika
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Geles zole
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\travinka.jpg
+
+newmtl Paveikliuko stovas
+Kd 0.266667 0.266667 0.266667 
+Ka 0.133333 0.133333 0.133333 
+Ks 0.133333 0.133333 0.133333 
+d 1
+
+newmtl Paveiksliuko remas
+Kd 0.976471 0.976471 0.976471 
+Ka 0.488235 0.488235 0.488235 
+Ks 0.488235 0.488235 0.488235 
+d 1
+
+newmtl Paveiksliuko nuotrauka
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\55eecc009848eefb42aa8ead4ddef21e.jpg
+
+newmtl Staliuko medis1
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Siju medis3.jpg
+
+newmtl Veidrodzio medis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^E97A0063FCAB8EF5B688D2DA6FFDBAE6500976933B25D3FC09^pimgpsh_fullsize_distr1.jpg
+
+newmtl Staliuko kojos juodos
+Kd 0.14902 0.14902 0.14902 
+Ka 0.0745098 0.0745098 0.0745098 
+Ks 0.0745098 0.0745098 0.0745098 
+d 1
+
+newmtl cp4
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\953c7f43c4bc465315b1a7e9777b8e3b.jpg
+
+newmtl cp7
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\5ae026dc25f008ad54570287acd79422.jpg
+
+newmtl cp6
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\b2dd87989e5b6f7bac9b4c3ae452477e.jpg
+
+newmtl Paveikslas akis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\paveikslas_antras.jpg
+
+newmtl Paveikslas sirdis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\love-1125204_960_720.jpg
+
+newmtl Lovos veliuras
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\9c82c61ad21e21da88a2da9c7615b4e0.jpg
+
+newmtl Lovos medziaga
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^4819E3E15521FDB677E59E0EDBABBB9171CA3E8B96C6C05482^pimgpsh_fullsize_distr.jpg
+
+newmtl Lovos kaldra
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\53581.jpg
+
+newmtl Lovos kojos
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Siju medis5.jpg
+
+newmtl Patalyne
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\18e976f09500dabc39b6e4f2ad3db481.jpg
+
+newmtl Lovosuzklotas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\2399-14 - Copy.jpg
+
+newmtl Pagalves dideles prie sienos
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\dd0416f094f5fa116c7eb7b1f7709a5b.jpg
+
+newmtl Pagalve didesnes
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\2399-14 - Copy1.jpg
+
+newmtl Lentynos
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Kilimas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Kilis.jpg
+
+newmtl Paveikslas ant drobes 1
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\plumes_wit.jpg
+
+newmtl Paveikslas ant drobes 3
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\WHEN-nothing-goed-right-go-left.jpg
+
+newmtl Paveikslas ant drobes 2
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\lifeis-poster28.jpg
+
+newmtl Zurnalo sonai
+Kd 0.894118 0.894118 0.894118 
+Ka 0.447059 0.447059 0.447059 
+Ks 0.447059 0.447059 0.447059 
+d 1
+
+newmtl Zurnalas 2
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^3DEB31A729FFD1BE4F44191CBA747015ACAE509011F9B1606C^pimgpsh_fullsize_distr.jpg
+
+newmtl Zurnalas 1
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^3A874F2DF22323F58DBB43ACBDDA7ACEB3FA1A3FCC0CC5079F^pimgpsh_fullsize_distr.jpg
+
+newmtl Zurnalas 5
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\drop-result1_extractedTex4347.jpg
+
+newmtl Zurnalas 7
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\cobra 120x120.png
+
+newmtl Zurnalas 4
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\1 (11).jpg
+
+newmtl Zurnalas 8
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\119.jpg
+
+newmtl Zurnalas 3
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^A2086190718ED9B3719775160E104BCB3545AA0F709A99B023^pimgpsh_fullsize_distr.jpg
+
+newmtl Zurnalas 6
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Paveikslas_1000x600.jpg
+
+newmtl Suoliuko dirzas rudas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\fzm-leather.texture-05-[800x800]1.jpg
+
+newmtl Suolelio medis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Siju medis6.jpg
+
+newmtl Suolelio cromas
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Suoliuko pagalve geltona
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\garstyciu gobelenas2.jpg
+
+newmtl Suoliuko pagalve zalsva
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\foteliukas1.jpg
+
+newmtl Suoliuko dirzas juodas
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\910498946c77b825f7ae58f0fb1eb4bd.jpg
+
+newmtl Foto 1
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Juodai baltos (5).jpg
+
+newmtl Foto 2
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\20130205155646367.jpg
+
+newmtl Foto 4
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\0_9cc0c_4f1a9cd7_XL.jpg
+
+newmtl Foto 5
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\cmr9Nww6qek.jpg
+
+newmtl Foto 6
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\9085a72420c0.jpg
+
+newmtl Paveikslu stiklas
+Kd 0 0 0 
+Ka 0 0 0 
+Ks 0 0 0 
+d 0
+
+newmtl Zuvies juoda
+Kd 0.2 0.2 0.2 
+Ka 0.1 0.1 0.1 
+Ks 0.1 0.1 0.1 
+d 0.82
+
+newmtl Zuvies ruda
+Kd 0.886275 0.882353 0.858824 
+Ka 0.443137 0.441176 0.429412 
+Ks 0.443137 0.441176 0.429412 
+d 1
+
+newmtl Kedes cromas
+Kd 0.14902 0.14902 0.14902 
+Ka 0.0745098 0.0745098 0.0745098 
+Ks 0.0745098 0.0745098 0.0745098 
+d 1
+
+newmtl Kedes medziaga
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\garstyciu gobelenas.jpg
+
+newmtl Kedes plastikas
+Kd 0.266667 0.266667 0.266667 
+Ka 0.133333 0.133333 0.133333 
+Ks 0.133333 0.133333 0.133333 
+d 1
+
+newmtl Staliuko medis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\black-wood-texture.jpg
+
+newmtl Staliuko fasadas medis
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\^E97A0063FCAB8EF5B688D2DA6FFDBAE6500976933B25D3FC09^pimgpsh_fullsize_distr2.jpg
+
+newmtl Staliuko rankenele plastikas
+Kd 0.94902 0.94902 0.94902 
+Ka 0.47451 0.47451 0.47451 
+Ks 0.47451 0.47451 0.47451 
+d 1
+
+newmtl Staliuko rankena bronza
+Kd 0.501961 0.501961 0.501961 
+Ka 0.25098 0.25098 0.25098 
+Ks 0.25098 0.25098 0.25098 
+d 1
+
+newmtl Staliuko rankena cromas
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Staliuko kojos
+Kd 0.156863 0.156863 0.156863 
+Ka 0.0784314 0.0784314 0.0784314 
+Ks 0.0784314 0.0784314 0.0784314 
+d 1
+
+newmtl Lempos plastikas pilkas
+Kd 0.239216 0.239216 0.239216 
+Ka 0.119608 0.119608 0.119608 
+Ks 0.119608 0.119608 0.119608 
+d 1
+
+newmtl Lempos metalas
+Kd 0.14902 0.14902 0.14902 
+Ka 0.0745098 0.0745098 0.0745098 
+Ks 0.0745098 0.0745098 0.0745098 
+d 1
+
+newmtl Lempos bronza
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Metal 2517 x 2577 px 030613.jpg
+
+newmtl Lemputes juoda
+Kd 0.14902 0.14902 0.14902 
+Ka 0.0745098 0.0745098 0.0745098 
+Ks 0.0745098 0.0745098 0.0745098 
+d 1
+
+newmtl Lempuciu sviesa
+Kd 0.937255 0.937255 0.937255 
+Ka 0.468627 0.468627 0.468627 
+Ks 0.468627 0.468627 0.468627 
+d 1
+
+newmtl Veidrodzio veidrodis
+Kd 0.109804 0.109804 0.109804 
+Ka 0.054902 0.054902 0.054902 
+Ks 0.054902 0.054902 0.054902 
+d 1
+
+newmtl Cromas kedutes
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Plastikas kedutes
+Kd 0.886275 0.886275 0.886275 
+Ka 0.443137 0.443137 0.443137 
+Ks 0.443137 0.443137 0.443137 
+d 1
+
+newmtl Medziaga kedutes
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\garstyciu gobelenas1.jpg
+
+newmtl Medis kedutes
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\Siju medis4.jpg
+
+newmtl Loptopo korpusas
+Kd 0.8 0.8 0.8 
+Ka 0.4 0.4 0.4 
+Ks 0.4 0.4 0.4 
+d 1
+
+newmtl Loptopo obuolys
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+
+newmtl Spausdintuvo juoda
+Kd 0.2 0.2 0.2 
+Ka 0.1 0.1 0.1 
+Ks 0.1 0.1 0.1 
+d 1
+
+newmtl Spausdintuvo pilka
+Kd 0.658824 0.647059 0.619608 
+Ka 0.329412 0.323529 0.309804 
+Ks 0.329412 0.323529 0.309804 
+d 1
+
+newmtl Spausdintuvo popierius
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\13355fcd8263ccc9244a1a0a6713af96.jpg
+
+newmtl Laikrodzio cromas
+Kd 0.513725 0.54902 0.564706 
+Ka 0.256863 0.27451 0.282353 
+Ks 0.256863 0.27451 0.282353 
+d 1
+
+newmtl Laikrodzio rodykles juoda
+Kd 0.113725 0.113725 0.113725 
+Ka 0.0568627 0.0568627 0.0568627 
+Ks 0.0568627 0.0568627 0.0568627 
+d 1
+
+newmtl Laikrodzio rodykles zalia
+Kd 0.764706 0.976471 0.501961 
+Ka 0.382353 0.488235 0.25098 
+Ks 0.382353 0.488235 0.25098 
+d 1
+
+newmtl Material #3
+Kd 0.494118 0.494118 0.494118 
+Ka 0.247059 0.247059 0.247059 
+Ks 0.247059 0.247059 0.247059 
+d 1
+
+newmtl Laikrodzio korpusas
+Kd 0.937255 0.937255 0.937255 
+Ka 0.468627 0.468627 0.468627 
+Ks 0.468627 0.468627 0.468627 
+d 1
+
+newmtl Laikrodzio vidus
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
+map_Kd C:\Users\3daud\AppData\Roaming\SimLab\SimLab Composer 8\data\Imported_Textures\39\SketchUp\Svetaine\793178fdecf3b312deb6227e4a952fb8.tif
+
+newmtl Laikrodzio stiklas
+Kd 0 0 0 
+Ka 0 0 0 
+Ks 0 0 0 
+d 0
+
+newmtl Lubines lempos korpusas
+Kd 0.94902 0.94902 0.94902 
+Ka 0.47451 0.47451 0.47451 
+Ks 0.47451 0.47451 0.47451 
+d 1
+
+newmtl Lubines lempos sviesa
+Kd 1 1 1 
+Ka 0.5 0.5 0.5 
+Ks 0.5 0.5 0.5 
+d 1
