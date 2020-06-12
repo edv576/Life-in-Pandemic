@@ -185,7 +185,7 @@ ModelImporter:
     400178: //RootNode
     2100000: rp_eric_rigged_001_mat
     4300000: rp_eric_rigged_001_geo
-    7400000: Walking_backwards_Eric
+    7400000: Walking_backwards_Eric_S
     9500000: //RootNode
     13700000: rp_eric_rigged_001_geo
   externalObjects: {}
@@ -217,7 +217,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Walking_backwards_Eric
+      name: Walking_backwards_Eric_S
       takeName: mixamo.com
       firstFrame: 0
       lastFrame: 36
@@ -231,7 +231,7 @@ ModelImporter:
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
