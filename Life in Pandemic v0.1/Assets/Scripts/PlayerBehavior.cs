@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class PlayerBehavior : MonoBehaviour
     float rot = 0.0f;
     float gravity = 8;
     Camera cam;
+    bool isDeciding = false;
+    public GameObject decisionCanvas;
+    Vector3 lastPlayerPosition;
 
     Vector3 moveDir = Vector3.zero;
 
@@ -21,17 +25,87 @@ public class PlayerBehavior : MonoBehaviour
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         cam = GetComponentInChildren<Camera>();
+        lastPlayerPosition = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //if (!isDeciding)
+        //{
+        //    Movement();
+        //}
 
         Movement();
+
+        if (Input.GetKeyDown(KeyCode.E) && decisionCanvas.activeSelf)
+        {
+            //lastPlayerPosition = transform.position;
+            if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                
+                SceneManager.LoadScene(2);
+            }
+            else
+            {
+                SceneManager.LoadScene(1);
+            }
+        }
+        
         
 
         
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.tag == "Stairs")
+    //    {
+    //        print("Touched stairs");
+    //        isDeciding = true;
+    //        decisionCanvas.SetActive(true);
+
+    //    }
+    //}
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag == "Stairs")
+        {
+            //print("Touched stairs");
+            //isDeciding = true;
+            //decisionCanvas.SetActive(true);
+
+        }
+
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Stairs")
+        {
+            print("Touched stairs");
+            isDeciding = true;
+            decisionCanvas.SetActive(true);
+
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Stairs")
+        {
+            //print("Touched stairs");
+            //isDeciding = true;
+            decisionCanvas.SetActive(false);
+
+        }
+
+
+    }
+
+
 
     void Movement()
     {
