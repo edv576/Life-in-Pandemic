@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -13,7 +14,12 @@ public class PlayerBehavior : MonoBehaviour
     Camera cam;
     bool isDeciding = false;
     public GameObject decisionCanvas;
-    Vector3 lastPlayerPosition;
+    public GameObject itemCanvas;
+    public GameObject txtItem;
+    public GameObject inventory = null;
+    GameObject itemToTake = null;
+    string originalItemText;
+
 
     Vector3 moveDir = Vector3.zero;
 
@@ -25,7 +31,12 @@ public class PlayerBehavior : MonoBehaviour
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         cam = GetComponentInChildren<Camera>();
-        lastPlayerPosition = transform.position;
+        inventory = GameObject.Find("Inventory");
+        inventory.GetComponent<InventoryBehavior>().playerCamera = GetComponentInChildren<MouseCameraMovement>().gameObject;
+        //txtItem = GameObject.Find("TxtPickItem");
+        originalItemText = txtItem.GetComponent<Text>().text;
+
+
     }
 
     // Update is called once per frame
@@ -51,10 +62,22 @@ public class PlayerBehavior : MonoBehaviour
                 SceneManager.LoadScene(1);
             }
         }
-        
-        
 
-        
+
+        if (Input.GetKeyDown(KeyCode.E) && !decisionCanvas.activeSelf && itemCanvas.activeSelf)
+        {
+            GameObject newItem = new GameObject();
+            newItem.name = itemToTake.name + " item";
+            inventory.GetComponent<InventoryBehavior>().inventoryItemNames.Add(itemToTake.name);
+            itemToTake.SetActive(false);
+            newItem.transform.parent = GameObject.Find("Items").transform;
+            itemCanvas.SetActive(false);
+
+        }
+
+
+
+
     }
 
     //private void OnCollisionEnter(Collision collision)
@@ -90,6 +113,14 @@ public class PlayerBehavior : MonoBehaviour
             decisionCanvas.SetActive(true);
 
         }
+
+        if(other.gameObject.tag == "Item")
+        {
+            itemCanvas.SetActive(true);
+            txtItem.GetComponent<Text>().text = originalItemText + other.gameObject.name;
+            itemToTake = other.gameObject;
+
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -100,6 +131,11 @@ public class PlayerBehavior : MonoBehaviour
             //isDeciding = true;
             decisionCanvas.SetActive(false);
 
+        }
+
+        if (other.gameObject.tag == "Item")
+        {
+            itemCanvas.SetActive(false);
         }
 
 
@@ -164,7 +200,7 @@ public class PlayerBehavior : MonoBehaviour
 
             }
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.C))
             {
                 anim.SetInteger("condition", 3);
             }
