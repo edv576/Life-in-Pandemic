@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Stairs
   - Item
+  - Exit
   layers:
   - Default
   - TransparentFX

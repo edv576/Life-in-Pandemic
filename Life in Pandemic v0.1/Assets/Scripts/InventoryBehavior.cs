@@ -8,6 +8,7 @@ public class InventoryBehavior : MonoBehaviour
     public List<string> inventoryItemNames;
     public GameObject inventoryCanvas;
     public GameObject playerCamera = null;
+    public GameObject[] inventoryItemSlots;
 
     private void Awake()
     {

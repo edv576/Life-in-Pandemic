@@ -15,6 +15,7 @@ public class PlayerBehavior : MonoBehaviour
     bool isDeciding = false;
     public GameObject decisionCanvas;
     public GameObject itemCanvas;
+    public GameObject exitCanvas;
     public GameObject txtItem;
     public GameObject inventory = null;
     GameObject itemToTake = null;
@@ -32,7 +33,11 @@ public class PlayerBehavior : MonoBehaviour
         anim = GetComponent<Animator>();
         cam = GetComponentInChildren<Camera>();
         inventory = GameObject.Find("Inventory");
-        inventory.GetComponent<InventoryBehavior>().playerCamera = GetComponentInChildren<MouseCameraMovement>().gameObject;
+        if(inventory != null)
+        {
+            inventory.GetComponent<InventoryBehavior>().playerCamera = GetComponentInChildren<MouseCameraMovement>().gameObject;
+        }
+        
         //txtItem = GameObject.Find("TxtPickItem");
         originalItemText = txtItem.GetComponent<Text>().text;
 
@@ -69,6 +74,8 @@ public class PlayerBehavior : MonoBehaviour
             GameObject newItem = new GameObject();
             newItem.name = itemToTake.name + " item";
             inventory.GetComponent<InventoryBehavior>().inventoryItemNames.Add(itemToTake.name);
+            inventory.GetComponent<InventoryBehavior>().inventoryItemSlots[inventory.GetComponent<InventoryBehavior>().inventoryItemNames.Count - 1].SetActive(true);
+            inventory.GetComponent<InventoryBehavior>().inventoryItemSlots[inventory.GetComponent<InventoryBehavior>().inventoryItemNames.Count - 1].GetComponentInChildren<Text>().text = itemToTake.name;
             itemToTake.SetActive(false);
             newItem.transform.parent = GameObject.Find("Items").transform;
             itemCanvas.SetActive(false);
