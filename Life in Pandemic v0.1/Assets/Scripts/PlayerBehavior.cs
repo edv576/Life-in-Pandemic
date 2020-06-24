@@ -16,10 +16,15 @@ public class PlayerBehavior : MonoBehaviour
     public GameObject decisionCanvas;
     public GameObject itemCanvas;
     public GameObject exitCanvas;
+    public GameObject exitBuildingStairsCanvas;
+    public GameObject exitBuildingElevatorCanvas;
     public GameObject txtItem;
     public GameObject inventory = null;
+    InventoryBehavior inventoryBehavior;
     GameObject itemToTake = null;
     string originalItemText;
+    int sceneToGo = -1;
+    int extraHazard = -1;
 
 
     Vector3 moveDir = Vector3.zero;
@@ -33,6 +38,7 @@ public class PlayerBehavior : MonoBehaviour
         anim = GetComponent<Animator>();
         cam = GetComponentInChildren<Camera>();
         inventory = GameObject.Find("Inventory");
+        inventoryBehavior = inventory.GetComponent<InventoryBehavior>();
         if(inventory != null)
         {
             inventory.GetComponent<InventoryBehavior>().playerCamera = GetComponentInChildren<MouseCameraMovement>().gameObject;
@@ -40,6 +46,8 @@ public class PlayerBehavior : MonoBehaviour
         
         //txtItem = GameObject.Find("TxtPickItem");
         originalItemText = txtItem.GetComponent<Text>().text;
+
+        bool result = inventoryBehavior.GotInfected();
 
 
     }
@@ -54,18 +62,41 @@ public class PlayerBehavior : MonoBehaviour
 
         Movement();
 
-        if (Input.GetKeyDown(KeyCode.E) && decisionCanvas.activeSelf)
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            //lastPlayerPosition = transform.position;
-            if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 0)
+            if(sceneToGo != -1)
             {
+                if(sceneToGo == 3 || extraHazard == 0)
+                {
+                    inventoryBehavior.AddProbabilityInfectionOutside();
+                    if (inventoryBehavior.isMaskEquipped)
+                    {
+                        inventoryBehavior.AddProbabilityMaskProtection();
+                    }
+                }
+
+                if (sceneToGo == 4 || extraHazard == 1)
+                {
+                    inventoryBehavior.AddProbabilityInfectionStairs();
+                }
+
+                if (sceneToGo == 4 || extraHazard == 2)
+                {
+                    inventoryBehavior.AddProbabilityInfectionEmptyElevator();
+                }
+
+                SceneManager.LoadScene(sceneToGo);
+
+            }
+            //if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 0)
+            //{
                 
-                SceneManager.LoadScene(2);
-            }
-            else
-            {
-                SceneManager.LoadScene(1);
-            }
+            //    SceneManager.LoadScene(2);
+            //}
+            //else
+            //{
+            //    SceneManager.LoadScene(1);
+            //}
         }
 
 
@@ -79,6 +110,10 @@ public class PlayerBehavior : MonoBehaviour
             itemToTake.SetActive(false);
             newItem.transform.parent = GameObject.Find("Items").transform;
             itemCanvas.SetActive(false);
+            if(itemToTake.name == "Mask")
+            {
+                inventoryBehavior.EquipMask();
+            }
 
         }
 
@@ -118,16 +153,54 @@ public class PlayerBehavior : MonoBehaviour
             print("Touched stairs");
             isDeciding = true;
             decisionCanvas.SetActive(true);
+            if(SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                sceneToGo = 2;
+            }
+
+            if(SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                sceneToGo = 1;
+            }
 
         }
 
-        if(other.gameObject.tag == "Item")
+        if (other.gameObject.CompareTag("Exit"))
+        {
+            print("Touched exit door");
+            exitCanvas.SetActive(true);
+            extraHazard = 0;
+            sceneToGo = 3;
+
+        }
+
+        if (other.gameObject.CompareTag("StairsOut"))
+        {
+            print("Touched exit stairs out");
+            exitBuildingStairsCanvas.SetActive(true);
+            extraHazard = 1;
+            sceneToGo = 4;
+
+        }
+
+        if (other.gameObject.CompareTag("Elevator"))
+        {
+            print("Touched exit elevator");
+            exitBuildingElevatorCanvas.SetActive(true);
+            extraHazard = 2;
+            sceneToGo = 4;
+
+        }
+
+        if (other.gameObject.tag == "Item")
         {
             itemCanvas.SetActive(true);
             txtItem.GetComponent<Text>().text = originalItemText + other.gameObject.name;
             itemToTake = other.gameObject;
 
         }
+
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -138,6 +211,21 @@ public class PlayerBehavior : MonoBehaviour
             //isDeciding = true;
             decisionCanvas.SetActive(false);
 
+        }
+
+        if (other.gameObject.CompareTag("Exit"))
+        {
+            exitCanvas.SetActive(false);
+        }
+
+        if (other.gameObject.CompareTag("StairsOut"))
+        {
+            exitBuildingStairsCanvas.SetActive(false);
+        }
+
+        if (other.gameObject.CompareTag("Elevator"))
+        {
+            exitBuildingElevatorCanvas.SetActive(false);
         }
 
         if (other.gameObject.tag == "Item")
