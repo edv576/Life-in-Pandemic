@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PlayerBehavior : MonoBehaviour
 {
 
-    float speed = 4.5f;
+    float speed = 1.5f;
     float rotSpeed = 80;
     float rot = 0.0f;
     float gravity = 8;
