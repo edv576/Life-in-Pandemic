@@ -17614,6 +17614,7 @@ GameObject:
   - component: {fileID: 144049675440743651}
   - component: {fileID: 144049675439416451}
   - component: {fileID: 144049675438319299}
+  - component: {fileID: 1717675818}
   m_Layer: 0
   m_Name: 3DGeom~833
   m_TagString: Untagged
@@ -17680,6 +17681,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1717675818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144049675440255107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.786432, y: 27.125772, z: 10.875231}
+  m_Center: {x: 0.0000024929743, y: -2.9905157, z: 5.4706736}
 --- !u!1 &144049675440255109
 GameObject:
   m_ObjectHideFlags: 0
@@ -22418,6 +22432,7 @@ GameObject:
   - component: {fileID: 144049675440743647}
   - component: {fileID: 144049675439416575}
   - component: {fileID: 144049675438319423}
+  - component: {fileID: 2082954190}
   m_Layer: 0
   m_Name: 3DGeom~827
   m_TagString: Untagged
@@ -22484,6 +22499,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2082954190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144049675440255231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25991037, y: 0.2136399, z: 0.3629569}
+  m_Center: {x: -0.0004669815, y: 0.19617148, z: 0.1990692}
 --- !u!1 &144049675440255233
 GameObject:
   m_ObjectHideFlags: 0
@@ -34398,6 +34426,7 @@ GameObject:
   - component: {fileID: 144049675440743957}
   - component: {fileID: 144049675439416885}
   - component: {fileID: 144049675438317685}
+  - component: {fileID: 819980891}
   m_Layer: 0
   m_Name: 3DGeom~756
   m_TagString: Untagged
@@ -34464,6 +34493,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &819980891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144049675440255541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.7999954, y: 3.5005834, z: 6.8884444}
+  m_Center: {x: 4.134, y: 0.27162465, z: 0.7134966}
 --- !u!1 &144049675440255543
 GameObject:
   m_ObjectHideFlags: 0
@@ -39003,8 +39045,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.19451939, y: 0.1961981, z: 0.16283378}
-  m_Center: {x: -0.097259454, y: 0.098098695, z: 0.08141689}
+  m_Size: {x: 0.19451939, y: 0.19619812, z: 0.40592316}
+  m_Center: {x: -0.09725946, y: 0.09809871, z: 0.20296182}
 --- !u!1 &144049675440255659
 GameObject:
   m_ObjectHideFlags: 0
@@ -71633,6 +71675,7 @@ GameObject:
   - component: {fileID: 144049675440742515}
   - component: {fileID: 144049675439415315}
   - component: {fileID: 144049675438318163}
+  - component: {fileID: 1821922161}
   m_Layer: 0
   m_Name: 3DGeom~4
   m_TagString: Untagged
@@ -71699,6 +71742,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1821922161
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144049675440258067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300006, guid: bf52d4339604d0c499375a73a4f96936, type: 3}
 --- !u!1 &144049675440258069
 GameObject:
   m_ObjectHideFlags: 0
@@ -82471,6 +82528,7 @@ GameObject:
   - component: {fileID: 144049675440742663}
   - component: {fileID: 144049675439415591}
   - component: {fileID: 144049675438318439}
+  - component: {fileID: 138000135}
   m_Layer: 0
   m_Name: 3DGeom~231
   m_TagString: Untagged
@@ -82537,6 +82595,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &138000135
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144049675440258343}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300108, guid: bf52d4339604d0c499375a73a4f96936, type: 3}
 --- !u!1 &144049675440258345
 GameObject:
   m_ObjectHideFlags: 0

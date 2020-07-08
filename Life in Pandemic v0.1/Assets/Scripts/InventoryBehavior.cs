@@ -52,7 +52,6 @@ public class InventoryBehavior : MonoBehaviour
         if (!isMaskEquipped)
         {
             textMaskEquipped.text = "Yes";
-            //generalProbabilityInfection += probabilityMaskProtection;
 
             if (generalProbabilityInfection < 0.0f)
             {
