@@ -6,34 +6,63 @@ using UnityEngine.UI;
 
 public class PlayerBehavior : MonoBehaviour
 {
-
+    //Define the variables needed for the player movement.
     float speed = 1.5f;
     float rotSpeed = 80;
     float rot = 0.0f;
     float gravity = 8;
+
+    //Camera used by the player.
     Camera cam;
     bool isDeciding = false;
+
+    //Canvas with the text to go up/down the stairs inside the apartment.
     public GameObject decisionCanvas;
+
+    //Canvas with the inventory.
     public GameObject itemCanvas;
+
+    //Canvas with the text to leave the apartment.
     public GameObject exitCanvas;
+
+    //Canvas with the text to leave building using stairs
     public GameObject exitBuildingStairsCanvas;
+
+    //Canvas with the text to leave building using the elevator
     public GameObject exitBuildingElevatorCanvas;
     public GameObject txtItem;
+
+    //The inventory is initialized here.
     public GameObject inventory = null;
+
+    //The script that controls the inventory
     InventoryBehavior inventoryBehavior;
+
+    //Item that can be picked up in the apartment.
     GameObject itemToTake = null;
+
+    //First item to pick by default.
     string originalItemText;
+
+    //Which scene the user will. The integer represents the ID.
     int sceneToGo = -1;
+
+    //Defines if there is an extra hazard like the elevator arriving with people.
     int extraHazard = -1;
 
 
     Vector3 moveDir = Vector3.zero;
 
+
+    //Character controller for the player.
     CharacterController controller;
+
+    //Animator that controls all the character animations.
     Animator anim;
     // Start is called before the first frame update
     void Start()
     {
+        //Initializes all the elements
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         cam = GetComponentInChildren<Camera>();
@@ -44,7 +73,6 @@ public class PlayerBehavior : MonoBehaviour
             inventory.GetComponent<InventoryBehavior>().playerCamera = GetComponentInChildren<MouseCameraMovement>().gameObject;
         }
         
-        //txtItem = GameObject.Find("TxtPickItem");
         originalItemText = txtItem.GetComponent<Text>().text;
 
         bool result = inventoryBehavior.GotInfected();
@@ -55,13 +83,13 @@ public class PlayerBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (!isDeciding)
-        //{
-        //    Movement();
-        //}
 
+        //Executes the movement function.
         Movement();
 
+
+        //Depending of the actions of the player the infection probability will change. It also depends of the scenes origin and destiny
+        //scenes the players will find themselves into.
         if (Input.GetKeyDown(KeyCode.E))
         {
             if(sceneToGo != -1)
@@ -88,18 +116,10 @@ public class PlayerBehavior : MonoBehaviour
                 SceneManager.LoadScene(sceneToGo);
 
             }
-            //if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 0)
-            //{
-                
-            //    SceneManager.LoadScene(2);
-            //}
-            //else
-            //{
-            //    SceneManager.LoadScene(1);
-            //}
+
         }
 
-
+        //This defines what happpens when the player is picking an object. It adds it to the inventory.
         if (Input.GetKeyDown(KeyCode.E) && !decisionCanvas.activeSelf && itemCanvas.activeSelf)
         {
             GameObject newItem = new GameObject();
@@ -110,6 +130,8 @@ public class PlayerBehavior : MonoBehaviour
             itemToTake.SetActive(false);
             newItem.transform.parent = GameObject.Find("Items").transform;
             itemCanvas.SetActive(false);
+
+            //If the object picked is the mask it automatically equips it.
             if(itemToTake.name == "Mask")
             {
                 inventoryBehavior.EquipMask();
@@ -122,30 +144,10 @@ public class PlayerBehavior : MonoBehaviour
 
     }
 
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    if (collision.gameObject.tag == "Stairs")
-    //    {
-    //        print("Touched stairs");
-    //        isDeciding = true;
-    //        decisionCanvas.SetActive(true);
-
-    //    }
-    //}
-
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        if (hit.gameObject.tag == "Stairs")
-        {
-            //print("Touched stairs");
-            //isDeciding = true;
-            //decisionCanvas.SetActive(true);
-
-        }
 
 
-    }
-
+    //Defines what happens when the player touches doors and objects. It generally moves the player from one scene to another but can also
+    //serve to pick objects.
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Stairs")
@@ -203,6 +205,9 @@ public class PlayerBehavior : MonoBehaviour
 
     }
 
+
+    //Defines what happens when the player stops touching doors and objects. It hides the canvases that could have been made visible
+    //when touches the aforementioned objects.
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Stairs")
@@ -237,7 +242,7 @@ public class PlayerBehavior : MonoBehaviour
     }
 
 
-
+    //Defines the movement of the player. It also activates the animations needed for those movements.
     void Movement()
     {
         if (controller.isGrounded)
@@ -248,7 +253,6 @@ public class PlayerBehavior : MonoBehaviour
                 anim.SetInteger("condition", 1);
                 moveDir = new Vector3(cam.gameObject.transform.forward.x, 0, cam.gameObject.transform.forward.z);
                 moveDir *= speed;
-                //transform.eulerAngles = new Vector3(0, cam.gameObject.transform.eulerAngles.y, 0);
             }
 
             if (Input.GetKeyUp(KeyCode.W))
@@ -307,7 +311,6 @@ public class PlayerBehavior : MonoBehaviour
             transform.eulerAngles = new Vector3(0, cam.gameObject.transform.eulerAngles.y, 0);
         }
         
-        //transform.eulerAngles = new Vector3(0, rot, 0);
 
         moveDir.y -= gravity * Time.deltaTime;
         controller.Move(moveDir * Time.deltaTime);

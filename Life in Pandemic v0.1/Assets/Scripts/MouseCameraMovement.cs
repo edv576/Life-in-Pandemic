@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MouseCameraMovement : MonoBehaviour
 {
+
+    //Definess variables for head movement
     public float speedH = 2.0f;
     public float speedV = 2.0f;
 
@@ -28,6 +30,7 @@ public class MouseCameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If the flag for rotate head is active, let user player rotate head using the mouse as input.
         if (canRotateHead)
         {
             yaw += speedH * Input.GetAxis("Mouse X");

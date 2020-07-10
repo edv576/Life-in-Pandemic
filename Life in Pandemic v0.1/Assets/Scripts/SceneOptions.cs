@@ -11,6 +11,8 @@ public class SceneOptions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Inactivates any trigger option for objects that are already in the inventory. This way objects don't reappear when returning to
+        //a previous scene.
         inventory = GameObject.Find("Inventory");
         int numberItems = inventory.GetComponent<InventoryBehavior>().inventoryItemNames.Count;
         List<string> listItemNames = inventory.GetComponent<InventoryBehavior>().inventoryItemNames;
